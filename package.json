@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "postcss css/tailwind.css -o css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/localthreader/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/localthreader/portfolio/issues"
+  },
+  "homepage": "https://github.com/localthreader/portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1"
+  }
+}
