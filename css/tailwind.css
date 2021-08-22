@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: local('Ubuntu'), url(./fonts/Ubuntu-Light.ttf) format('ttf');
+    font-family: 'Inter';
+    src: local('Inter'), url(./fonts/Inter-Regular.ttf) format('ttf');
 }
 
+
 @font-face {
-    font-family: 'RobotoMono';
-    src: local('RobotoMono'), url(./fonts/RobotoMono-Medium.ttf) format('ttf');
+    font-family: 'JetBrainsMono';
+    src: local('JetBrainsMono'), url(./fonts/JetBrainsMono-Regular.ttf) format('ttf');
 }
