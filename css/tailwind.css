@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('Ubuntu'), url(./fonts/Ubuntu-Light.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'RobotoMono';
+    src: local('RobotoMono'), url(./fonts/RobotoMono-Medium.ttf) format('ttf');
+}
