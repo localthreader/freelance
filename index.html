@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
         <style>
 
@@ -15,6 +15,9 @@
             }
             .border-1 {
                 border-width: 1px;
+            }
+            .max-wd-xlsm {
+                max-width: 12rem;
             }
         </style>
 
@@ -33,9 +36,28 @@
                     <br><br>In my spare times I like to act as a web designer</p>
             </div>
             <div class="mr-auto">
-                <img class="w-96 h-96" src="images/laptop.png" alt="">
+                <img class="w-96 h-96" src="images/laptop.png">
             </div>
         </div>
-        <h1 class="ml-10 text-3xl pt-20 text-white font-inter">Alguns dos meus projetos</h1>
+        <h1 class="ml-10 text-3xl pt-16 text-gray-800 font-inter font-bold text-center mb-10">About my work</h1>
+        <div class="grid grid-cols-3 gap-x-20 mx-20">
+            <div>
+                <img class="w-24 h-24 mx-auto p-2" src="images/wrench.svg">
+                <p class="font-inter font-bold mt-2 text-gray-800 text-center mb-2">Free support</p>
+                <p class="font-inter text-center text-sm text-gray-800 font-semibold">Concerned about possible bugs and conflicts between systems? Don't worry, no software is perfect the first time, that's why I offer completely free support for the next 2 weeks after plugin delivery.</p>
+
+            </div>
+            <div>
+                <img class="w-24 h-24 mx-auto p-2" src="images/code.svg">
+                <p class="font-inter font-bold mt-2 text-gray-800 text-center mb-2">Code Access</p>
+                <p class="font-inter text-center text-sm text-gray-800 font-semibold">Know exactly what code is running on your server! The plugin code is on my GitHub in a private repository, but you can see the code clearly, you just need to have a GitHub account so I can add you as a collaborator to the repository.</p>
+
+            </div>
+            <div>
+                <img class="w-24 h-24 mx-auto p-4" src="images/money.svg">
+                <p class="font-inter font-bold mt-2 text-center mb-2">Refund</p>
+                <p class="font-inter text-center text-sm text-gray-800 font-semibold">In order for the plugin development to start, it is necessary to pay 50% of the proposed amount, however, if you wanted to go back and give up on the project, a full refund is allowed up to 3 days after payment of the initial fee.</p>
+            </div>
+        </div>
     </body>
 </html>
