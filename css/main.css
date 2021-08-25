@@ -681,6 +681,20 @@ video {
   font-family: 'Inter', sans-serif;
 }
 
+.tool-grid-element img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 6rem;
+  width: 6rem;
+}
+
+.tool-grid-element p {
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

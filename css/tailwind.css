@@ -48,4 +48,12 @@
     .service-grid-element p {
         @apply font-inter text-center text-sm text-gray-800 font-semibold;
     }
+
+    .tool-grid-element img {
+        @apply w-24 h-24 mx-auto;
+    }
+
+    .tool-grid-element p {
+        @apply text-center text-lg font-semibold;
+    }
 }
