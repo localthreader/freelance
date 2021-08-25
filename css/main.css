@@ -684,8 +684,8 @@ video {
 .tool-grid-element img {
   margin-left: auto;
   margin-right: auto;
-  height: 6rem;
-  width: 6rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 .tool-grid-element p {

@@ -50,7 +50,7 @@
     }
 
     .tool-grid-element img {
-        @apply w-24 h-24 mx-auto;
+        @apply w-12 h-12 mx-auto;
     }
 
     .tool-grid-element p {
