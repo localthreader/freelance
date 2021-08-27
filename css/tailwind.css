@@ -56,4 +56,8 @@
     .tool-grid-element p {
         @apply text-center text-lg font-semibold;
     }
+
+    .title {
+        @apply text-3xl pt-32 text-gray-800 font-inter font-bold text-center mb-10;
+    }
 }

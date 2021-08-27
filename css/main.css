@@ -695,6 +695,18 @@ video {
   font-weight: 600;
 }
 
+.title {
+  margin-bottom: 2.5rem;
+  padding-top: 8rem;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+  font-family: 'Inter', sans-serif;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
